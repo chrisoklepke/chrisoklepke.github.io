@@ -1,0 +1,31 @@
+---
+layout: default
+title: Chriso's Blog
+description: Welcome to my Blog
+permalink: /blog
+---
+
+<div class="section hero">
+  <div class="div_container">
+    <h1 class="h1_display">Chriso's<br>Blog</h1>
+    <p class="p_intro">Opinions on marketing, business and life you didn&#x27;t ask for.</p>
+  </div>
+  <div class="wrapper_bg-blur">
+    <div class="blur-blob-2"></div>
+    <div class="blur-blob-1"></div>
+  </div>
+</div>
+<div class="section">
+  <div class="div_container">
+      {% for post in site.posts %}
+        <div class="div_publish-date">
+          <div class="txt_meta-info">{{ post.date | date: "%m/%d/%Y" }}</div>
+        </div>
+        <div class="link_blog-article">
+          <h2>{{ post.title }}</h2>
+          <p>{{ post.description }}</p>
+          <a href="{{ post.url }}" class="link_variant">read on →</a>
+        </div>
+      {% endfor %}
+  </div>
+</div>

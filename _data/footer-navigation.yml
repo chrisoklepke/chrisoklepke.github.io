@@ -1,0 +1,6 @@
+- name: About
+  link: /about
+- name: Imprint / Impressum
+  link: /legal/imprint-de
+- name: Privacy Policy
+  link: /legal/privacy-policy

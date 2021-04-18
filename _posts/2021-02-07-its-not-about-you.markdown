@@ -15,7 +15,7 @@ It's about your **CUSTOMERS** and **AUDIENCE.**
 
 > “MARKETING IS THE GENEROUS ACT OF HELPING SOMEONE SOLVE A PROBLEM. THEIR PROBLEM. MARKETING HELPS OTHERS BECOME WHO THEY SEEK TO BECOME”.
 
-- Seth Godin
+// Seth Godin
 
 Help your audience to solve their problem, even if it means not selling your product... especially if it's not about selling your product.
 

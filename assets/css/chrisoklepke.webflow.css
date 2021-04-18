@@ -137,15 +137,20 @@ strong {
 
 blockquote {
   margin-bottom: 20px;
-  padding: 10px 20px;
   border-left: 1px none #000;
-  background-color: rgba(67, 83, 255, 0.2);
-  font-family: 'IBM Plex Mono';
+  background-color: rgba(67, 83, 255, 0.1);
+  font-family: 'Silka Mono', Arial, sans-serif;
   color: #00f;
   font-size: 19px;
   line-height: 1.6em;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+blockquote p {
+  color: #00f;
+  padding: 10px 20px;
+  margin-bottom: 0px;
 }
 
 figure {
@@ -399,11 +404,6 @@ figcaption {
 
 .rich-text a:hover {
   border-color: #727272 #727272 #00f;
-}
-
-.rich-text blockquote {
-  background-color: rgba(67, 83, 255, 0.1);
-  font-family: 'Silka Mono', Arial, sans-serif;
 }
 
 .container-nav {

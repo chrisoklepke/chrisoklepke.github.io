@@ -3,32 +3,57 @@ layout: default
 title: Chriso Klepke
 description: Welcome to my little happy place on the internet. I&#x27;m a marketer with the firm belief business should be done in a human, helpful, and responsible way.
 ---
-
-  <div data-w-id="ad36ff12-75fc-1063-6c30-ac19ee1e6384" class="section hero">
-    <div class="wrapper_bg-blur">
-      <div data-w-id="2bb03cc6-7a47-d2ec-e842-1f3671f66b4e" class="div_moving-blob-wrapper">
-        <div class="blur-blob-1-home"></div>
-      </div>
-    </div>
-    <div class="container-full-width">
-      <h1 class="h1_display left">Chriso Klepke</h1>
-      <p class="p_home intro">Currently</p>
+<div class="section home">
+  <div class="w-layout-grid grid_home">
+    <div id="w-node-_54830a74-dfa0-6269-a2e4-95336ea82faa-2fb41385" class="div_home-top">
+      <h1 class="h1_display">Chriso Klepke</h1>
+      <h2 class="h2_display">Currently</h2>
       <ul role="list" class="slash_list w-list-unstyled">
         <li class="listitem_slash-style">
           <div class="p_home slash">//</div>
-          <p class="p_home">Consulting on Inbound Marketing <br>@ <a href="http://www.avidlyagency.com" target="_blank" class="link_home">Avidly Agency ↗</a>
+          <p class="p_home">Consulting on Inbound Marketing @ <a href="http://www.avidlyagency.com" target="_blank" class="link_variant">Avidly Agency ↗</a>
           </p>
         </li>
         <li class="listitem_slash-style">
           <div class="p_home slash">//</div>
-          <p class="p_home">Coaching Branding &amp; Design Sprints <br>@ <a href="https://www.spinlab.co/" target="_blank" class="link_home">Spinlab - The HHL Accelerator ↗</a>
+          <p class="p_home">Coaching Branding &amp; Design Sprints @ <a href="https://www.spinlab.co/" target="_blank" class="link_variant">Spinlab - The HHL Accelerator ↗</a>
           </p>
         </li>
         <li class="listitem_slash-style">
           <div class="p_home slash">//</div>
-          <p class="p_home">Building a Remote Marketing Job Board <br>@ <a href="http://conversionmate.de" target="_blank" class="link_home">Conversion Mate ↗</a>
+          <p class="p_home">Building a Remote Marketing Job Board @ <a href="http://conversionmate.de" target="_blank" class="link_variant">Conversion Mate ↗</a>
           </p>
         </li>
       </ul>
     </div>
+    <div class="div_home-bottom">
+      <h2 class="h2_display">Latest Post</h2>
+      {% for post in site.posts limit:1%}
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.description }}</p>
+        <a href="{{ post.url }}" class="link_variant">read on →</a>
+      {% endfor %}
+    </div>
+    <div class="div_home-bottom">
+      <h2 class="h2_display">Get in Touch</h2>
+      <ul role="list" class="slash_list w-list-unstyled">
+        <li class="listitem_slash-style">
+          <div class="p_home slash">//</div>
+          <a href="mailto:christoph.klepke@hey.com?subject=Hello%20there..." class="link_variant">Email</a>
+        </li>
+        <li class="listitem_slash-style">
+          <div class="p_home slash">//</div>
+          <a href="https://twitter.com/chrisoklepke" target="_blank" class="link_variant">Twitter</a>
+        </li>
+        <li class="listitem_slash-style">
+          <div class="p_home slash">//</div>
+          <a href="https://de.linkedin.com/in/christophklepke" target="_blank" class="link_variant">Linkedin</a>
+        </li>
+      </ul>
+    </div>
   </div>
+  <div class="wrapper_bg-blur">
+    <div class="blur-blob-2"></div>
+    <div class="blur-blob-1"></div>
+  </div>
+</div>

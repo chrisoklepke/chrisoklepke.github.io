@@ -642,13 +642,20 @@ figcaption {
   color: #f4f4f4;
 }
 
-.div_progress-indicator {
+.div_progress-indicator-wrapper {
   position: fixed;
-  left: 0px;
-  top: 0px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: auto;
   z-index: 1000;
+
+}
+
+.div_progress-indicator {
   height: 4px;
   background-color: #00f;
+  width: 0%;
 }
 
 .div_legal-nav-wrapper {
@@ -1340,6 +1347,7 @@ figcaption {
 
   .nav-menu {
     background-color: #e6e6e6;
+    position: absolute;
   }
 
   .p-xl {

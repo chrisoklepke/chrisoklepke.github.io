@@ -4,10 +4,10 @@
       <a href="/" aria-current="page" class="div_logo-wrapper w-inline-block w--current">
         <div class="logo_type">Chriso Klepke</div>
       </a>
-      <div class="menu-button w-nav-button">
+      <div class="menu-button w-nav-button" onclick="toggleNav()">
         <div class="icon w-icon-nav-menu"></div>
       </div>
-      <nav role="navigation" class="nav-menu w-nav-menu">
+      <nav id="myNav" role="navigation" class="nav-menu w-nav-menu">
         <div class="div_nav-wrapper">
           {% for item in site.data.navigation %}
           <a href="{{ item.link }}" class="link_variant navigation">{{ item.name }}</a>

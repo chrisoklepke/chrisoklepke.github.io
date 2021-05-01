@@ -23,4 +23,4 @@ Over the past years, I worked with multiple tech startups in Germany, like [Repl
 
 I also started coaching entrepreneurs at one of Europe's highest-ranked Accelerators: [SpinLab - The HHL Accelerator](https://www.spinlab.co).
 
-If you'd like to say hi or even talk shop, shoot me an email at [christoph.klepke@hey.com](href="mailto:christoph.klepke@hey.com?subject=Hello there").
+If you'd like to say hi or even talk shop, shoot me an email at [christoph.klepke@hey.com](mailto:christoph.klepke@hey.com?subject=Hello there").

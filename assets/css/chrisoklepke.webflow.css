@@ -49,7 +49,7 @@ blockquote p {
 }
 
 body {
-  background-color: #e6e6e6;
+  background-color: #FFFAF5;
   font-family: Silka, Arial, sans-serif;
   color: #000;
   font-size: 16px;
@@ -1148,37 +1148,6 @@ figcaption {
   text-transform: uppercase;
 }
 
-.wrapper_bg-blur {
-  position: absolute;
-  left: 0%;
-  top: 0%;
-  right: 0%;
-  bottom: 0%;
-  z-index: 30;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-}
-
-.blur-blob-1 {
-  position: absolute;
-  left: auto;
-  top: -3%;
-  right: 2%;
-  bottom: auto;
-  width: 30%;
-  height: 50%;
-  border-radius: 70% 30% 70% 300%;
-  -webkit-filter: blur(70px);
-  filter: blur(70px);
-  background-image: linear-gradient(to bottom, hsla(322.1212121212121, 79.84%, 51.37%, 1.00), #5018FB)
-}
-
 .txt_number-brand {
   position: absolute;
   left: auto;
@@ -1224,22 +1193,8 @@ figcaption {
   align-items: baseline;
 }
 
-.blur-blob-2 {
-  position: absolute;
-  left: 6%;
-  top: auto;
-  right: auto;
-  bottom: -10%;
-  width: 30%;
-  height: 70%;
-  border-radius: 200% 100% 200% 100%;
-  -webkit-filter: blur(90px);
-  filter: blur(90px);
-  background-image: linear-gradient(to top, hsla(322.1212121212121, 79.84%, 51.37%, 1.00), #5018FB);
-}
-
 .body {
-  background-color: #e6e6e6;
+  background-color: #FFFAF5;
 }
 
 .p_404 {
